@@ -8,13 +8,13 @@ the .bin directory. We will be implementing that in the future.
 
 ##instalation
 you need to type these commands into the bash shell
-'''
+```
 $ git clone  https://github.com/yourusername/rshell.git
 $ cd rshell
 $ git checkout hw0
 $ make
 $ bin/rshell
-'''
+```
 
 
 ##BUGS
