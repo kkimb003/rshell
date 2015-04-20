@@ -68,9 +68,10 @@ int main(int argc, char **argv){
 		}
 		search = 0;
 		add = 0;
-		while(search < input.size()){		//finds the first instance of ';'
+		while(search < input.size()){		//finds the first instance of 'tab'
 				if(search == 0)
 						search = input.find("\t");
+						
 				else
 						search = input.find("\t",search+1,1);
 				if(add!=search && search != string::npos){

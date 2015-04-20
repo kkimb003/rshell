@@ -8,14 +8,16 @@ the .bin directory. We will be implementing that in the future.
 
 ##instalation
 you need to type these commands into the bash shell
-
-'$ git clone  https://github.com/yourusername/rshell.git
+'''
+$ git clone  https://github.com/yourusername/rshell.git
 $ cd rshell
 $ git checkout hw0
 $ make
-$ bin/rshell'
+$ bin/rshell
+'''
 
 
 ##BUGS
 have not figured out how to make it work with different connectors
 on the same line 
+tab in the beginning causes an infinite loop
