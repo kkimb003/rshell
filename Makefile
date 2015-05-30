@@ -13,15 +13,13 @@ all:
 
 rshell: 
 	mkdir -p ./bin
-<<<<<<< HEAD
 
-=======
 	$(CXX) $(CFLAGS) $(FILEPATH) -o $(OUTPATH) 
 
 cp: 
 	if [ ! -d bin ]; then mkdir bin; fi
 	g++ $(CFLAGS) src/cp.cpp -o bin/cp
->>>>>>> 9354c8b5f214ded26e535bd58c6a30b68344c0a4
+
 
 clean:
 		rm -rf ./bin
