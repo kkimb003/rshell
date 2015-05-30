@@ -1,0 +1,41 @@
+Script started on Fri 29 May 2015 10:59:35 PM PDT
+[~/rshell/tests] kkimb003@hammer $ cd ..
+[~/rshell] kkimb003@hammer $ make
+mkdir -p ./bin
+g++ -ansi -pedantic -Wall -Werror ./src/main.cpp -o ./bin/rshell
+[~/rshell] kkimb003@hammer $ bim[Kn.[K/rshell
+###testing cd
+~/home/csmajs/kkimb003/rshell kkimb003@hammer $ cd
+###testing cd with parameters
+~/home/csmajs/kkimb003 kkimb003@hammer $ cd s rshell/src
+~/home/csmajs/kkimb003/rshell/src kkimb003@hammer $ ls
+a.out  cp.cpp  ls.cpp  main.cpp  temp
+###testing ctrl c
+~/home/csmajs/kkimb003/rshell/src kkimb003@hammer $ ^C
+~/home/csmajs/kkimb003/rshell/src kkimb003@hammer $ ^C
+~/home/csmajs/kkimb003/rshell/src kkimb003@hammer $ ^C
+~/home/csmajs/kkimb003/rshell/src kkimb003@hammer $ ^C
+~/home/csmajs/kkimb003/rshell/src kkimb003@hammer $ ^C
+~/home/csmajs/kkimb003/rshell/src kkimb003@hammer $ ^C
+~/home/csmajs/kkimb003/rshell/src kkimb003@hammer $ ^C
+~/home/csmajs/kkimb003/rshell/src kkimb003@hammer $ ^C
+~/home/csmajs/kkimb003/rshell/src kkimb003@hammer $ ^C
+~/home/csmajs/kkimb003/rshell/src kkimb003@hammer $ ^C
+~/home/csmajs/kkimb003/rshell/src kkimb003@hammer $ ^C
+~/home/csmajs/kkimb003/rshell/src kkimb003@hammer $ cd
+###testing single parameters
+~/home/csmajs/kkimb003 kkimb003@hammer $ cd rshell
+~/home/csmajs/kkimb003/rshell kkimb003@hammer $ ls
+bin  exec.script  license  Makefile  README.md	src  tests
+~/home/csmajs/kkimb003/rshell kkimb003@hammer $ cd src
+~/home/csmajs/kkimb003/rshell/src kkimb003@hammer $ ls
+a.out  cp.cpp  ls.cpp  main.cpp  temp
+###running my code within my code
+~/home/csmajs/kkimb003/rshell/src kkimb003@hammer $ g++ main.cpp
+~/home/csmajs/kkimb003/rshell/src kkimb003@hammer $ ls
+a.out  cp.cpp  ls.cpp  main.cpp  temp
+~/home/csmajs/kkimb003/rshell/src kkimb003@hammer $ exit
+[~/rshell] kkimb003@hammer $ exit
+exit
+
+Script done on Fri 29 May 2015 11:01:49 PM PDT
